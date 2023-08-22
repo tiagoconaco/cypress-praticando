@@ -19,7 +19,7 @@ jobs:
       
       # Exemplo de execução no terminal
       - name: Instalar Dependencias
-        run: echo Tiago C
+        run: npm install
       
       # Execução e configugação do Projeto   
       - name: Run Testes
