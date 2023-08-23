@@ -31,7 +31,7 @@ jobs:
 
       # upload do relatório do MOCHA
       - name: upload relatório
-        users: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: Relatório
           path: cypress\reports\html
